@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+.nav{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(24, 24, 82);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+
+}
+ul{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15px;
+}
+.nav b{
+    padding-left: 300px;
+}
+
+.one{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(86, 182, 150);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.one .first{
+    font-size: 70px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.one .second{
+    font-size: 30px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.one .third{
+    color: white;
+}
+.two{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.two .cards .card1{
+    width: 400px;
+    height: 250px;
+    background-color: rgb(223, 86, 131);
+    border-radius: 15px;
+}
+.two .cards .card1 img{
+    width: 400px;
+}
+.two .cards .card2{
+    width: 400px;
+    height: 250px;
+    background-color: rgb(223, 86, 131);
+    border-radius: 15px;
+}
+.two .cards .card2 img{
+    width: 400px;
+}
+
+.two .cards .card3{
+    width: 400px;
+    height: 250px;
+    background-color: rgb(223, 86, 131);
+    border-radius: 15px;
+}
+.two .cards .card3 img{
+    width: 400px;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
